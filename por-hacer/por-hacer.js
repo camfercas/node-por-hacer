@@ -11,7 +11,7 @@ const guardarDB = () => {
         if (err) throw new Error('No se pudo grabar', err);
     });
 
-}
+};
 
 
 const cargarDB = () => {
@@ -73,7 +73,7 @@ const actualizar = (descripcion, completado = true) => {
         return false;
     }
 
-}
+};
 
 const borrar = (descripcion) => {
 
@@ -104,7 +104,7 @@ const borrar = (descripcion) => {
     // } else {
     //     return false;
     // }
-}
+};
 
 module.exports = {
     crear,
